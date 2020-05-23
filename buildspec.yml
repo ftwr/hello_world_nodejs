@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+      - npm install --unsafe-perm
+      - find ./node_modules -mtime +10950 -exec touch {} \;
+      - pip3 install --upgrade awscli
+  post_build:
+    commands: echo 'done'
+artifacts:
+  type: zip
+  files:
+    - "**/*"
