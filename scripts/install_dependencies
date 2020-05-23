@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/messages-api
+cd /home/ubuntu/hello_world_nodejs
 #curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 rm -rf node_modules
 npm install --unsafe-perm
