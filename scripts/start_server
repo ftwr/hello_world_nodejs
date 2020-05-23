@@ -1,0 +1,9 @@
+#!/bin/bash
+# cd /home/ubuntu/messages-api
+# if [ "$DEPLOYMENT_GROUP_NAME" = "develop" ]; then
+#     pm2 start ./pm2.config.js
+# else
+#     pm2 start ./pm2.config.js --env env_dev
+# fi
+cd /home/ubuntu/hello_world_nodejs
+pm2 start app.js
