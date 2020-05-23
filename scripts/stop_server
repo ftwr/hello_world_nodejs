@@ -1,3 +1,3 @@
 #!/bin/bash
 pm2 delete hello_world_nodejs || true
-rm -rf /home/ubuntu/messages-api
+rm -rf /home/ubuntu/hello_world_nodejs
